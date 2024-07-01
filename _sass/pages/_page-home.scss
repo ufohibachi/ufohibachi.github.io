@@ -117,7 +117,7 @@
     left: 50%;
     right: auto;
     bottom: auto;
-    z-index: 120;
+    z-index: 10;
   }
   .home-slider__caption {
     background-color: rgba( 36,30,28, .75);
@@ -192,7 +192,7 @@
     position: absolute;
     width: 100%;
     top: 50%;
-    z-index: 130;
+    z-index: 10;
   }
   @media (min-width: 1024px) {
     .home-slider__caption__container {
