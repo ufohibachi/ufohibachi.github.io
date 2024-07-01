@@ -1,0 +1,39 @@
+.main-menu {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+  > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    > li {
+      list-style: none;
+      font-size: 1.125rem;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      > a {
+        padding: 10px 12px 10px 12px;
+        display: inline-block;
+        font-weight: lighter;
+        text-decoration: none;
+        color: $black;
+        &:hover {
+          text-decoration: none;
+          color: $ufored;
+        }
+      }
+      &.active {
+        > a {
+          font-weight: lighter;
+          text-decoration-line: underline;
+          text-decoration-thickness: 3px;
+          text-decoration-color: $ufored;
+          text-underline-offset: 8px;
+          &:hover {
+            transition: all 225ms ease-in 0s;
+          }
+        }
+      }
+    }
+  }
+}

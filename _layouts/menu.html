@@ -1,0 +1,19 @@
+---
+layout: default
+bodyClass: "page-menu"
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <article class="col-xs-12 col-sm-12">
+        <h1 class="main_title"><b>Menu</b></h1>
+        <p>
+        {% assign mainmenu = site.data.menus.menu | sort: 'weight' %}
+        {% for item in mainmenu %}
+        <img decoding="async" alt="" class="menu_image" src="{{ item.image | relative_url }}" /><br />
+        {% endfor %}
+      </article>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+main:
+  - name: "HOME"
+    url: "/"
+    weight: 2
+  - name: "MENU"
+    url: "/menu/"
+    weight: 3
+  - name: "ABOUT US"
+    url: "/about/"
+    weight: 4
+  - name: "CONTACT"
+    url: "/contact/"
+    weight: 5
+  - name: "Online Ordering | Clover"
+    url: "https://www.clover.com/online-ordering/ufo-hibachi-express-new-roswell"
+    weight: 6
+
+menu:
+  - image: "images/menu/menu_1.jpg"
+    weight: 1
+  - image: "images/menu/menu_2.jpg"
+    weight: 2
+  - image: "images/menu/menu_3.jpg"
+    weight: 3
+  - image: "images/menu/menu_4.jpg"
+    weight: 4
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Contact"
+    url: "/contact/"
+    weight: 2

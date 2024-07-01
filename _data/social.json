@@ -1,0 +1,12 @@
+[
+  {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/p/UFO-Hibachi-Express-100040885686228/",
+      "image": "images/social/facebook.svg"
+  },
+  {
+      "name": "Email",
+      "link": "mailto:ufohibachi@gmail.com",
+      "image": "images/social/email.svg"
+  }
+]

@@ -1,0 +1,73 @@
+.page-contact {
+  h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+  }
+  h3 {
+    line-height: 1.5em;
+    font-size: 1.2222rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  h5 {
+    color: #241E1C;
+    font-size: 0.7368rem;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+  }
+  iframe {
+    min-height: 400px;
+  }
+  .main_title {
+    font-family: Montserrat, sans-serif;
+    text-align: left;
+  }
+  .site_sidebar {
+    background-color: #f7f7f7;
+    color: #333333;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .clearfix {
+    overflow: auto;
+  }
+  [class*="center-"] {
+    justify-content: center;
+    text-align: center;
+  }
+  .section-title {
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  .location-widget {
+    margin-top: 1rem;
+    font-size: .8368rem;
+    .gmap {
+      height: 200px;
+      width: 100%;
+      max-width: 100%;
+    }
+    .location {
+      margin-top: 1.333rem;
+      margin-bottom: .5rem;
+      white-space: pre;
+      line-height: 150%;
+      color: palette(grey,300);
+      + a {
+        color: $ufored;
+        text-decoration: none;
+        font-weight: bold;
+        position: relative;
+        &:after {
+          content: '\2192';
+          margin-left: 2px;
+        }
+      }
+    }
+  }
+}
