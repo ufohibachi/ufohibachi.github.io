@@ -14,13 +14,6 @@ logo:
 home: 
   limit_services: 6
 
-collections:
-  services:
-    output: true
-    sort_by: weight
-  team:
-    output: true
-
 defaults:
   - scope:
       path: ""
