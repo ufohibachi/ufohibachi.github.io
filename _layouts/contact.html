@@ -3,31 +3,57 @@ layout: default
 bodyClass: "page-contact"
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!-- Style The Contact Form How Ever You Prefer -->
+<link rel="stylesheet" href="style.css">
+
 <div class="intro">
     <div class="container pt-6 pb-6 pb-md-10">
         <div class="row justify-content-start">
             <article class="col-xs-12 col-sm-12 col-md-8 col-lg-9 post">
                 <div class="content">{{content}}</div>
                 <div class="entry">
-                    <div class="gf_browser_gecko gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework" data-form-theme="legacy" data-form-index="0" id="gform_wrapper_1"><form method="post" enctype="multipart/form-data" id="gform_1" action="/contact/" data-formid="1" novalidate="">
-                        <div class="gform-body gform_body"><ul id="gform_fields_1" class="gform_fields top_label form_sublabel_below description_below validation_below"><li id="field_1_1" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-js-reload="field_1_1"><label class="gfield_label gform-field-label" for="input_1_1">Your Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class="ginput_container ginput_container_text"><input name="input_1" id="input_1_1" type="text" value="" class="medium" aria-required="true" aria-invalid="false"> </div></li><li id="field_1_2" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-js-reload="field_1_2"><label class="gfield_label gform-field-label" for="input_1_2">Email Address<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class="ginput_container ginput_container_text"><input name="input_2" id="input_1_2" type="text" value="" class="medium" aria-required="true" aria-invalid="false"> </div></li><li id="field_1_3" class="gfield gfield--type-text field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-js-reload="field_1_3"><label class="gfield_label gform-field-label" for="input_1_3">Phone Number</label><div class="ginput_container ginput_container_text"><input name="input_3" id="input_1_3" type="text" value="" class="medium" aria-invalid="false"> </div></li><li id="field_1_4" class="gfield gfield--type-textarea gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible" data-js-reload="field_1_4"><label class="gfield_label gform-field-label" for="input_1_4">Message<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class="ginput_container ginput_container_textarea"><textarea name="input_4" id="input_1_4" class="textarea medium" aria-required="true" aria-invalid="false" rows="10" cols="50"></textarea></div></li></ul></div>
-                        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Send" onclick="if(window[&quot;gf_submitting_1&quot;]){return false;}  if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  " onkeypress="if( event.keyCode == 13 ){ if(window[&quot;gf_submitting_1&quot;]){return false;} if( !jQuery(&quot;#gform_1&quot;)[0].checkValidity || jQuery(&quot;#gform_1&quot;)[0].checkValidity()){window[&quot;gf_submitting_1&quot;]=true;}  jQuery(&quot;#gform_1&quot;).trigger(&quot;submit&quot;,[true]); }"> 
-                            <input type="hidden" class="gform_hidden" name="is_submit_1" value="1">
-                            <input type="hidden" class="gform_hidden" name="gform_submit" value="1">
-                    
-                            <input type="hidden" class="gform_hidden" name="gform_unique_id" value="">
-                            <input type="hidden" class="gform_hidden" name="state_1" value="WyJbXSIsIjgxNjRkNTdiYmQ4MDkzZjkzZjI0YzAxZWQ0ZDgzODkyIl0=">
-                            <input type="hidden" class="gform_hidden" name="gform_target_page_number_1" id="gform_target_page_number_1" value="0">
-                            <input type="hidden" class="gform_hidden" name="gform_source_page_number_1" id="gform_source_page_number_1" value="1">
-                            <input type="hidden" name="gform_field_values" value="">
-                        </div>
-                        <p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1719764223230"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
-                    </div>
-                    <script type="text/javascript">
-                        /* <![CDATA[ */
-                        gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://www.ufohibachi.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://www.ufohibachi.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);                if (event && event.defaultPrevented) {                return;         }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;                function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            jQuery( document ).trigger( 'gform_post_render', [1, current_page] );            gform.utils.trigger( { event: 'gform/postRender', native: false, data: { formId: 1, currentPage: current_page } } );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
-                        /* ]]&gt; */
-                    </script>
+                    <form class="gform pure-form pure-form-stacked" method="POST" data-email="ufohibachi@gmail.com"
+                    action="https://script.google.com/macros/s/AKfycbzTaUfzu47iwBvhuiaPJAPIgCDkPXewAzu2F65d-SBurrnXHDF2srKgmAJe3BmihCa-/exec">
+                      <!-- change the form action to your script url -->
+                  
+                      <div class="form-elements">
+                        <fieldset class="pure-group">
+                          <label for="name">Your Name*</label>
+                          <input id="name" name="name" height="10px" required/>
+                        </fieldset>
+                  
+                        <fieldset class="pure-group">
+                            <label for="email">Your Email Address*</label>
+                            <input id="email" name="email" type="email" value="" required/>
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="mobile_number">Mobile Number</label>
+                            <input id="mobile_number" name="mobile_number"/>
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" rows="10" cols="50" required></textarea>
+                        </fieldset>
+                  
+                        <button class="button-success pure-button button-xlarge">
+                          <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+                      </div>
+                  
+                      <!-- Customise the Thankyou Message People See when they submit the form: -->
+                      <div class="thankyou_message" style="display:none;">
+                        <br>
+                        <h1>Thanks for contacting us!
+                          We will get back to you soon!</h1>
+                      </div>
+                  
+                    </form>
+                  
+                    <!-- Submit the Form to Google Using "AJAX" -->
+                    <script data-cfasync="false" src="/scripts/form-submission-handler.js"></script>
                 </div>
             </article>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 site_sidebar">
