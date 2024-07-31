@@ -16,13 +16,13 @@ main:
     weight: 6
 
 menu:
-  - image: "images/menu/menu_1.jpg"
+  - image: "http://ufohibachi-246737165.imgix.net/images/menu/menu_1.jpg"
     weight: 1
-  - image: "images/menu/menu_2.jpg"
+  - image: "http://ufohibachi-246737165.imgix.net/images/menu/menu_2.jpg"
     weight: 2
-  - image: "images/menu/menu_3.jpg"
+  - image: "http://ufohibachi-246737165.imgix.net/images/menu/menu_3.jpg"
     weight: 3
-  - image: "images/menu/menu_4.jpg"
+  - image: "http://ufohibachi-246737165.imgix.net/images/menu/menu_4.jpg"
     weight: 4
 
 footer:
