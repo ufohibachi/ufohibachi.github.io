@@ -16,13 +16,13 @@ main:
     weight: 6
 
 menu:
-  - image: "http://ufohibachi-246737165.imgix.net/images/menu/menu_1.jpg"
+  - image: "https://ufohibachi-246737165.imgix.net/images/menu/menu_1.jpg"
     weight: 1
-  - image: "http://ufohibachi-246737165.imgix.net/images/menu/menu_2.jpg"
+  - image: "https://ufohibachi-246737165.imgix.net/images/menu/menu_2.jpg"
     weight: 2
-  - image: "http://ufohibachi-246737165.imgix.net/images/menu/menu_3.jpg"
+  - image: "https://ufohibachi-246737165.imgix.net/images/menu/menu_3.jpg"
     weight: 3
-  - image: "http://ufohibachi-246737165.imgix.net/images/menu/menu_4.jpg"
+  - image: "https://ufohibachi-246737165.imgix.net/images/menu/menu_4.jpg"
     weight: 4
 
 footer:
