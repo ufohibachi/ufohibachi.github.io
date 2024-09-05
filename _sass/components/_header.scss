@@ -39,3 +39,14 @@
   transform: translateX(-50%);
   z-index: 1000;
 }
+.affix-banner {
+  position: fixed;
+  top: 0;
+  margin-top: 100px;
+  width: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 1000;
+}
