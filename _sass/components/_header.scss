@@ -51,3 +51,11 @@
   z-index: 1000;
   align-items: center;
 }
+@keyframes fadeout {
+  0% { opacity: 1; }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.banner-fadeout {
+  animation: fadeout 3s ease-in 1;
+}

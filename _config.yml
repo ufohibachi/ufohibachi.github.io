@@ -4,12 +4,12 @@ permalink: pretty
 # title: 'UFO Hibachi Express'
 
 logo:
-  mobile: "images/logo/logo.png"
-  mobile_height: "83.5px"
-  mobile_width: "332px"
-  desktop: "images/logo/logo.png"
-  desktop_height: "83.5px"
-  desktop_width: "332px"
+  mobile: "images/logo/logo-new.png"
+  mobile_height: "85px"
+  mobile_width: "270px"
+  desktop: "images/logo/logo-new.png"
+  desktop_height: "85px"
+  desktop_width: "270px"
 
 home: 
   limit_services: 6
