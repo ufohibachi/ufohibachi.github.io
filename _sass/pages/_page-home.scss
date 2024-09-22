@@ -1,7 +1,12 @@
 .page-home {
   .site_content {
     padding-top: 5px;
-    margin-top: 100px;
+    @include media-breakpoint-up(sm) {
+      margin-top: 100px;
+    }
+    @include media-breakpoint-down(sm) {
+      margin-top: 78px;
+    }
   }
 
   /* Caption text */
@@ -21,11 +26,6 @@
     color: #FFFFFF;
   }
 
-  @media (min-width: 1024px) {
-    .home-slider__caption__container {
-        top: 50%;
-    }
-  }
   @media (min-width: 500px) {
     .home-slider__caption__container {
         bottom: auto;
@@ -134,6 +134,17 @@
     z-index: 10;
   }
   @media (min-width: 1024px) {
+    .home-slider__caption__container {
+      bottom: auto;
+      right: auto;
+      top: 35%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  }
+  @media (min-width: 1080px) {
     .home-slider__caption__container {
         top: 50%;
     }
