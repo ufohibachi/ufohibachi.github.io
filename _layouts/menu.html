@@ -5,15 +5,24 @@ bodyClass: "page-menu"
 
 <div class="intro">
   <div class="container">
-    <div class="row">
-      <article class="col-xs-12 col-sm-12">
-        <h1 class="main_title"><b>Menu</b></h1>
-        <p>
-        {% assign mainmenu = site.data.menus.menu | sort: 'weight' %}
-        {% for item in mainmenu %}
-        <img decoding="async" alt="" class="menu_image" src="{{ item.image | relative_url }}" /><br />
-        {% endfor %}
-      </article>
-    </div>
+    <article>
+      <h1 class="main_title">Try Our<br>New & Refreshed Menu!</h1>
+      <div class="row">
+        <h2 class="sub_title">Appetizer, Drink and Egg Roll Combo</h2>
+        <img decoding="async" alt="" class="menu_image" style="height: 50%; width: 50%; margin: auto;" src="https://ufohibachi-246737165.imgix.net/images/menu2/menu1.jpg" />
+      </div>
+      <div class="row">
+        <h2 class="sub_title">Lunch Menu</h2>
+        <img decoding="async" alt="" class="menu_image" src="https://ufohibachi-246737165.imgix.net/images/menu2/menu2.jpg" />
+      </div>
+      <div class="row">
+        <h2 class="sub_title">Dinner Menu</h2>
+        <img decoding="async" alt="" class="menu_image" src="https://ufohibachi-246737165.imgix.net/images/menu2/menu3.jpg" />
+      </div>
+      <div class="row">
+        <h2 class="sub_title">Fried Rice, Kids Menu and Side Items</h2>
+        <img decoding="async" alt="" class="menu_image" style="height: 50%; width: 50%; margin: auto;" src="https://ufohibachi-246737165.imgix.net/images/menu2/menu4.jpg" />
+      </div>
+    </article>
   </div>
 </div>
