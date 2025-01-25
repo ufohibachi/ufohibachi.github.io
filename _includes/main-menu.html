@@ -3,7 +3,7 @@
   <ul>
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
-      {% if item.name  == "Online Ordering | Clover" %}
+      {% if item.name  == "Online Ordering | ChowNow" %}
         <a target="_blank" href="{{ item.url | relative_url }}">{{ item.name }}</a>
       {% else %}
         <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
