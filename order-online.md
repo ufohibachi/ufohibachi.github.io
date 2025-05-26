@@ -1,5 +1,5 @@
 ---
-title: UFO Hibachi Express Online Order
+title: UFO Hibachi & Sushi Online Order
 layout: order-online
 description: Online Order
 ---

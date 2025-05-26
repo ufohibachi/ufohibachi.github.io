@@ -1,5 +1,5 @@
 ---
-title: Menu at UFO Hibachi Express
+title: Menu at UFO Hibachi & Sushi
 layout: menu
 description: Menu
 content_image_1: "images/menu2/menu1.jpg"

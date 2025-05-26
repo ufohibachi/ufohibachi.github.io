@@ -1,5 +1,5 @@
 ---
-title: Contact UFO Hibachi Express
+title: Contact UFO Hibachi & Sushi
 layout: contact
 description: Contact
 bodyClass: page-contact
