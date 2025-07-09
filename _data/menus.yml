@@ -11,8 +11,8 @@ main:
   - name: "CONTACT"
     url: "/contact/"
     weight: 5
-  - name: "Online Ordering | Clover"
-    url: "https://www.clover.com/online-ordering/ufo-hibachi-express-new-roswell"
+  - name: "Online Ordering | Chowbus"
+    url: "https://pos.chowbus.com/online-ordering/store/22270"
     weight: 6
 
 menu:
